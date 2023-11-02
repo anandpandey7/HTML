@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <fieldset>
+        <legend align="left">HTML Form Dummy</legend>
+        <lable for="email">Enter Emal ID:</lable>
+        <input type="text" id="email" placeholder="enter your enail">
+        <br/>
+        <br/>
+        <lable for="password">Enter Password</lable>
+        <input type="password" id="password" placeholder="password">
+        <br/>
+        <br/>
+        <lable for="contact">Phone no:</lable>
+        <input type="tel" id="contact"placeholder="Phone No">
+        <br/>
+        <br/>
+        <div>
+            <!-- you cannt choose from to checkboxes by only using html you have to use js -->
+            <lable>Choose Your Gender<lable>
+            <br/>
+            <label>
+              <input type="checkbox" value="1" name="gender" >Male</label>
+            <label>
+              <input type="checkbox" value="1" name="gender" >female</label>
+            <label>
+        </div>
+        <label for="course">Choose Your Carrier:</label>
+        <!-- Use multiple attribute for multiple sellection -->
+        <select name="select1" id="course">
+            <!-- Placeholder in select -->
+            <option value="" disabled selected>Choose a carrier</option>
+            <option value="option1">Software Developer</option>
+            <option value="option2">Data Scientist</option>
+            <option value="option3">Web Developer</option>
+            <option value="option4">Network Enginner</option>
+            <option value="option5">Systems Architect</option>
+        </select>
+        <br/>
+        <label for="radio">Are you on path?</label>
+        <br/>
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="path" checked>  
+        <label for="no">No</label>
+        <input type="radio" id="no"name="path"> 
+        <br/>
+        <lable for="file1">Attach Your Project</lable>
+        <input type="file" id="file1">
+        <br/>
+        <label for="time">submition (date and time):</label>
+        <input type="datetime-local" id="time" name="time">
+        <br/>
+        <textarea name="textarea1" id="text1" cols="30" rows="10" placeholder="write your review"></textarea>
+        <br/>
+        <input type="submit" value="Submit">
+        <button>Click Here</button>
+        <input type="image" id="image" name="login" src="login1.png" alt="login"height="100px" width="100px">
+    </fieldset>
+    </form>
+</body>
+</html>
